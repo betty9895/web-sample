@@ -10,12 +10,11 @@
 <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.js"></script>
     <script src="./js/init.js"></script>
-
     <div class="title" id="div-top">
         <header>
             <br/>
-            <h1>big title</h1>
-            <p>small title</p>
+            <h1>裝置模擬</h1>
+            <p>01</p>
         </header>
     </div>
     <div class="body" id="div-left">
@@ -45,7 +44,7 @@
                     <form name="slider1" id="GUI">
                         <input id="slider1" name="input" type="range" min="0" max="100"
                             oninput="output.value = input.value">
-                        <output id="slider1" name="output">0</output>
+                        <output id="slider1_val" name="output">0</output>
                     </form>
                 </td>
             </tr>
@@ -55,7 +54,7 @@
                     <form name="slider2" id="GUI">
                         <input id="slider2" name="input" type="range" min="0" max="100"
                             oninput="output.value = input.value">
-                        <output id="slider2" name="output">0</output>
+                        <output id="slider2_val" name="output">0</output>
                     </form>
                 </td>
             </tr>
@@ -65,9 +64,7 @@
             <button id="button">button</button>
         </div>
         <br />
-
     </div>
-
 </body>
 
 </html>
